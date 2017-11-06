@@ -1,0 +1,14 @@
+{
+    "name": "pete/eventgerbil.dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pete Waters",
+            "email": "pete.d.waters@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^6.4"
+    }
+}
