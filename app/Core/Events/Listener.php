@@ -1,6 +1,6 @@
 <?php
 
-namespace EventGerbil\Core\Listeners;
+namespace EventGerbil\Core\Events;
 
 use EventGerbil\Core\Events\Event;
 
