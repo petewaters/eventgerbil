@@ -2,8 +2,7 @@
 
 namespace EventGerbil\Stubs;
 
-use EventGerbil\Core\Listeners\Listener;
-use EventGerbil\Core\Events\Event;
+use EventGerbil\Core\Events\{ Event, Listener };
 
 class ListenerStub extends Listener
 {
