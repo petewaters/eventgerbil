@@ -6,7 +6,7 @@ use EventGerbil\Core\Events\{ Event, Listener };
 
 class ListenerStub extends Listener
 {
-    public function handle(Event $event)
+    public function nibble(Event $event)
     {
 
     }

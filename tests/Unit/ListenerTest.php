@@ -11,9 +11,9 @@ use TypeError;
 class ListenerTest extends TestCase
 {
    /** @test */
-   public function handle_accepts_event()
+   public function nibble_accepts_event()
    {
-       $listener = (new ListenerStub)->handle(new EventStub);
+       $listener = (new ListenerStub)->nibble(new EventStub);
        $this->addToAssertionCount(1);
    }
 
@@ -21,6 +21,6 @@ class ListenerTest extends TestCase
    public function throws_error_if_not_event()
    {
        $this->expectException(TypeError::class);
-       $listener = (new ListenerStub)->handle('a bit of a non-event');
+       $listener = (new ListenerStub)->nibble('a bit of a non-event');
    }
 }
