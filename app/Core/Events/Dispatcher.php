@@ -27,4 +27,11 @@ class Dispatcher
     {
         $this->listeners[$name][] = $listener;
     }
+
+    public function dispatch(Event $event)
+    {
+        foreach ($this->getListenersByEventName($event->getName()) as $listener) {
+            $listener->nibble($event);
+        }
+    }
 }
