@@ -6,7 +6,7 @@ use EventGerbil\Core\Events\Event;
 
 abstract class Listener
 {
-    abstract public function handle(Event $event);
+    abstract public function nibble(Event $event);
 
     public function getName()
     {
